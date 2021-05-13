@@ -1,0 +1,10 @@
+[user]
+	email = khu.1998@icloud.com
+	name = Kent Hu
+[core]
+	excludesFile = /home/kent/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

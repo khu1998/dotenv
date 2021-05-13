@@ -1,0 +1,8 @@
+*~
+tags
+tags.lock
+tags.temp
+cmake-build-*
+*.diff
+*.patch
+.vscode/
